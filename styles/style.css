@@ -26,6 +26,12 @@ body {
   background: transparent;
 }
 
+.primary-btn:hover {
+  background-color: yellow;
+  font-size: 18px;
+  color: blue;
+}
+
 /* start header section */
 .navbar-parent {
   display: flex;
@@ -466,3 +472,41 @@ table select {
   border: none;
 }
 /* end subscribe button */
+
+/* start footer section */
+
+footer {
+  margin-top: 80px;
+  height: 226px;
+}
+.footer-container {
+  background-color: white;
+  /* padding: 50px auto; */
+}
+
+.footer-content {
+  padding: 50px auto;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer-content h2 {
+  padding: 50px;
+  font-size: 32px;
+  font-weight: bold;
+  /* margin-bottom: 32px; */
+  color: #0e0e0e;
+}
+
+hr {
+  width: 1122px;
+  margin: 0 auto;
+  border: 0.5px solid rgba(0, 0, 0, 0.082);
+  margin-bottom: 32px;
+}
+
+.footer-content img {
+  margin-right: 23px;
+  margin-bottom: 50px;
+}
+/* end footer section */
