@@ -362,3 +362,55 @@ table select {
   flex-direction: row-reverse;
 }
 /* end recent news section */
+
+/* start donate section */
+.donate {
+  text-align: center;
+  margin: 80px auto;
+}
+
+.donate h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  color: #0e0e0e;
+}
+
+.donate p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  line-height: 24px;
+}
+
+.donate-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.tk {
+  font-size: 40px;
+  font-weight: bold;
+  color: #4f4f4f;
+  padding: 40px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.tk:nth-child(2) {
+  background-color: #c6e4d6;
+}
+
+.amount {
+  width: 1032px;
+  background-color: white;
+  margin: 16px auto;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.3);
+  padding: 20px 0px;
+}
+/* end donate section */
