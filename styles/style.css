@@ -510,3 +510,60 @@ hr {
   margin-bottom: 50px;
 }
 /* end footer section */
+
+/* start responsive design */
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+.banner{
+  width: 100%;
+  align-items: center;
+}
+  .navbar-parent {
+    padding: 18px 0;
+    justify-content: center;
+    gap: 20px;
+  }
+  .container{
+    width: 100%;
+  }
+
+  .banner-content{
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 17px 60px;
+  }
+
+  .banner-text{
+    text-align: center;
+    margin-top: 20px;
+  }
+ .banner-text h1 {
+    font-size: 28px;
+ }
+
+ .card-heading h2 {
+  font-size: 36px;
+  text-align: center;
+ }
+
+.card-list{
+  flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+ 
+ }
+ .card-list-info{
+   /* width: 100%; */
+ }
+
+ .banner-image img{
+  width: 100%;
+
+ }
+
+}
+
