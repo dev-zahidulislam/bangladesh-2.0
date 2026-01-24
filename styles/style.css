@@ -517,53 +517,247 @@ hr {
 }
 
 @media screen and (max-width: 576px) {
-.banner{
-  width: 100%;
-  align-items: center;
-}
+  .banner {
+    width: 100%;
+    align-items: center;
+  }
   .navbar-parent {
     padding: 18px 0;
     justify-content: center;
     gap: 20px;
   }
-  .container{
+  .navbar-parent .logo {
+    font-size: 24px;
+  }
+
+  .navbar-parent button {
+    font-size: 15px;
+    padding: 7px 21px;
+  }
+
+  .primary-btn {
+    font-size: 15px;
+  }
+
+  .banner-btn {
+    /* font-size: 14px; */
+  }
+
+  .primary-btn:hover {
+    background-color: yellow;
+    font-size: 15px;
+  }
+  .container {
     width: 100%;
   }
 
-  .banner-content{
+  .banner-content {
     flex-direction: column-reverse;
     justify-content: center;
     padding: 17px 60px;
   }
 
-  .banner-text{
+  .banner-text {
     text-align: center;
     margin-top: 20px;
   }
- .banner-text h1 {
+  .banner-text h1 {
     font-size: 28px;
- }
+  }
 
- .card-heading h2 {
-  font-size: 30px;
-  text-align: center;
- }
+  .card {
+    margin: 35px auto;
+  }
 
-.card-list{
-  flex-direction: column;
+  .card-heading h2 {
+    font-size: 27px;
+    text-align: center;
+  }
+
+  .card-list {
+    flex-direction: column;
     width: 100%;
     align-items: center;
+  }
 
- 
- }
- .card-list-info{
-   /* width: 100%; */
- }
+  .banner-image img {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+  .feature-heading {
+    text-align: center;
+  }
 
- .banner-image img{
-  width: 100%;
+  .feature-heading h2 {
+    font-size: 27px;
+  }
 
- }
+  .feature-heading p {
+    font-size: 14px;
+    padding: 5px;
+  }
 
+  .feature-card {
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .feature-card-info:nth-child(1),
+  .feature-card-info:nth-child(2),
+  .feature-card-info:nth-child(3) {
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .quote {
+    text-align: center;
+    justify-content: center;
+    /* margin-right: 80px; */
+    width: 100%;
+  }
+  .quote-icon {
+  }
+
+  .quote-section-parent {
+    margin-bottom: 10px;
+  }
+
+  .opinion {
+    margin-top: 0;
+  }
+  .opinion h2 {
+    font-size: 27px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .opinion-container {
+    width: 100%;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  .left-text,
+  .right-text {
+    font-size: 13px;
+    padding: 0;
+  }
+
+  tbody td {
+    font-size: 11px;
+    padding: 8px;
+  }
+
+  table select {
+    font-size: 10px;
+  }
+
+  .recent-news-container {
+    margin-top: 33px;
+  }
+
+  .recent-news-container h2 {
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .recent-news-container p {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .recent-news-card-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .all-cards :nth-child(2) {
+    flex-direction: column;
+  }
+
+  .card-image img {
+    width: 100%;
+  }
+
+  .recent-news-container h2 {
+    font-size: 28px;
+  }
+
+  .card-description .jajira {
+    margin: 0px 81px;
+  }
+
+  .time {
+    gap: 29px;
+  }
+
+  .card-description .card-text {
+    text-align: justify;
+  }
+
+  .card-description button {
+    margin: 0 76px;
+  }
+
+  .donate {
+    margin: 0;
+  }
+
+  .donate p {
+    font-size: 15px;
+    padding: 10px;
+  }
+  br {
+    display: none;
+  }
+
+  .donate-cards {
+    flex-direction: column;
+  }
+
+  .donate input[type="text"] {
+    padding: 15px 42px;
+    margin: 31px auto;
+    text-align: center;
+  }
+
+  .subscribe-content {
+    padding: 27px;
+  }
+  .subscribe-content h2 {
+    line-height: 35px;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .email {
+    border-radius: 8px 0px 0px 8px;
+    padding-left: 10px;
+    padding-right: 0px;
+    border: none;
+  }
+
+  .subscribe-content {
+    margin-top: 20px;
+  }
+
+  hr {
+    width: 300px;
+    margin-top: 0;
+    margin-bottom: 9px;
+  }
+
+  .footer-content h2 {
+    padding-top: 50px;
+  }
 }
-
